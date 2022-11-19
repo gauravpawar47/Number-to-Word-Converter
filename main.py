@@ -23,17 +23,17 @@ num = StringVar()
 
 # Adding title
 title = Label(root, text="Number to Words converter",
-               fg="black", font=("Times New Roman", 20, 'bold')).place(x=220, y=10)
+               fg="Black", font=("Times New Roman", 20, 'bold')).place(x=220, y=10)
 
 # Options
 formats_lable = Label(root, text="Formats supported :  ",
-               fg="blue", font=("Arial", 10, 'bold')).place(x=100, y=70)
+               fg="black", font=("Comic sans MS", 10, 'italic')).place(x=100, y=70)
 pos_format_lable = Label(root, text="1. Positives :  ",
-               fg="blue", font=("Arial", 10, 'bold')).place(x=200, y=90)
+               fg="black", font=("Arial", 10, 'bold')).place(x=200, y=90)
 neg_format_lable = Label(root, text="2. Negatives ",
-               fg="blue", font=("Arial", 10, 'bold')).place(x=200, y=110)
+               fg="yellow", font=("Arial", 10, 'bold')).place(x=200, y=110)
 float_format_lable = Label(root, text="3. Zeros  ",
-               fg="blue", font=("Arial", 10, 'bold')).place(x=200, y=130)
+               fg="yellow", font=("Arial", 10, 'bold')).place(x=200, y=130)
 zero_format_lable = Label(root, text="4. Floating points/decimals/fractions  ",
                fg="blue", font=("Arial", 10, 'bold')).place(x=200, y=150)
 
