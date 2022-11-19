@@ -27,15 +27,15 @@ title = Label(root, text="Number to Words converter",
 
 # Options
 formats_lable = Label(root, text="Formats supported :  ",
-               fg="black", font=("Comic sans MS", 10, 'italic')).place(x=100, y=70)
+               fg="black", font=("Arial", 10, 'bold')).place(x=100, y=70)
 pos_format_lable = Label(root, text="1. Positives :  ",
                fg="black", font=("Arial", 10, 'bold')).place(x=200, y=90)
 neg_format_lable = Label(root, text="2. Negatives ",
-               fg="yellow", font=("Arial", 10, 'bold')).place(x=200, y=110)
+               fg="black", font=("Arial", 10, 'bold')).place(x=200, y=110)
 float_format_lable = Label(root, text="3. Zeros  ",
-               fg="yellow", font=("Arial", 10, 'bold')).place(x=200, y=130)
+               fg="black", font=("Arial", 10, 'bold')).place(x=200, y=130)
 zero_format_lable = Label(root, text="4. Floating points/decimals/fractions  ",
-               fg="blue", font=("Arial", 10, 'bold')).place(x=200, y=150)
+               fg="black", font=("Arial", 10, 'bold')).place(x=200, y=150)
 
 
 num_entry_lable = Label(root, text="Enter a number :",
