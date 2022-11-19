@@ -23,7 +23,7 @@ num = StringVar()
 
 # Adding title
 title = Label(root, text="Number to Words converter",
-               fg="Red", font=("Times New Roman", 20, 'bold')).place(x=220, y=10)
+               fg="Black", font=("Times New Roman", 20, 'bold')).place(x=220, y=10)
 
 # Options
 formats_lable = Label(root, text="Formats supported :  ",
